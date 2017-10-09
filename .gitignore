@@ -17,10 +17,10 @@ DerivedData
 *.xcuserstate
 
 # CocoaPod
-Pods/*
-Podfile.lock
+/Pods/*
+!/Pods/.gitkeep
+/Podfile.lock
 
 # others
 *.swp
-!.gitkeep
 .DS_Store
